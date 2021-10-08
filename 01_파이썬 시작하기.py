@@ -26,3 +26,23 @@ print("안녕하세요.\n만나서\t\t반갑습니다.")
 # print ("오늘은", "일요일")
 # 정답: 오늘은 일요일
 print("오늘은", "일요일")
+
+# 007 print 기초
+# print() 함수를 사용하여 다음과 같이 출력하세요.
+# naver;kakao;sk;samsung
+print('naver;kakao;samsung') # my code
+print("naver", "kakao", "samsung", sep=";") # answer
+
+# 008 print 기초
+# print() 함수를 사용하여 다음과 같이 출력하세요.
+# naver/kakao/sk/samsung
+print('naver', 'kakao', 'samsung', sep='/')
+
+# 009 print 줄바꿈
+# 다음 코드를 수정하여 줄바꿈이 없이 출력하세요. (힌트: end='') print 함수는 두 번 사용합니다. 세미콜론 (;)은 한줄에 여러 개의 명령을 작성하기 위해 사용합니다.
+# print("first");print("second")
+print("first", end=''); print("second")
+
+# 010 연산 결과 출력
+# 5/3의 결과를 화면에 출력하세요.
+print(5/3)
