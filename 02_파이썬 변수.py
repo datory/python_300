@@ -29,3 +29,36 @@ print(s + "!" + " " + t)
 s = "hello"
 t = "python"
 print(s+"!", t)
+
+
+# 014 파이썬을 이용한 값 계산
+# 아래 코드의 실행 결과를 예상해보세요.
+# >> 2 + 2 * 3
+print(2 + 2 * 3)
+
+
+# 015 type 함수
+# type() 함수는 데이터 타입을 판별합니다. 변수 a에는 128 숫자가 바인딩돼 있어 type 함수가 int (정수)형임을 알려줍니다.
+# >> a = 128
+# >> print (type(a))
+# <class 'int'>
+# 아래 변수에 바인딩된 값의 타입을 판별해보세요.
+# >> a = "132"
+a = "132"
+print(type(a))
+
+
+# 016 문자열을 정수로 변환
+# 문자열 '720'를 정수형으로 변환해보세요.
+# >> num_str = "720"
+
+# my code
+num_str = "720"
+print(int(num_str))
+
+# answer
+num_str = "720" #형변환
+num_int = int(num_str)
+print(num_int+1, type(num_int))
+
+
