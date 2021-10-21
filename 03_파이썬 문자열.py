@@ -49,8 +49,33 @@ print(string[::-1])
 # >> phone_number = "010-1111-2222"
 # 실행 예
 # 010 1111 2222
+
+# the answer
 phone_number = "010-1111-2222"
-print(phone_number)
+phone_number1 = phone_number.replace("-", " ")
+print(phone_number1)
+
+
+# 026 문자열 다루기
+# 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
+# 실행 예
+# 01011112222
+phone_number2 = phone_number1.replace(" ", "")
+print(phone_number2)
 
 
 
+# 027 문자열 다루기
+# url 에 저장된 웹 페이지 주소에서 도메인을 출력하세요.
+# >> url = "http://sharebook.kr"
+# 실행 예:
+# kr
+
+# my code
+url = "http://sharebook.kr"
+print(url[-2:])
+
+# the answer
+url = "http://sharebook.kr"
+url_split = url.split('.')
+print(url_split[-1])
