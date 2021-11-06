@@ -87,10 +87,22 @@ print(url_split[-1])
 # >> lang = 'python'
 # >> lang[0] = 'P'
 # >> print(lang)
-lang = 'python'
-lang[0] = 'P'
-print(lang)
+# lang = 'python'
+# lang[0] = 'P'
+# print(lang)
 # 문자열은 수정할 수 없습니다. 실행 결과를 확인해보면 문자열이 할당(assignment)메서드를 지원하지 않음을 알 수 있습니다.
 
 
+# 029 replace 메서드
+# 아래 문자열에서 소문자 'a'를 대문자 'A'로 변경하세요.
+# >> string = 'abcdfe2a354a32a'
+# 실행 예:
+# Abcdfe2A354A32A
+# my code
+# string = 'abcdfe2a354a32a'
+# string.replace[a, A]
 
+# the answer
+string = 'abcdfe2a354a32a'
+string = string.replace('a', 'A')
+print(string)
