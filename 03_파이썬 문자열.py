@@ -3,6 +3,7 @@
 # >> letters = 'python'
 # 실행 예
 # p t
+print("\n021 문자열 인덱싱")
 letters = 'python'
 print(letters[0], letters[2])
 
@@ -12,6 +13,7 @@ print(letters[0], letters[2])
 # 실행 예: 2210
 
 # my code
+print("\n022 문자열 슬라이싱")
 license_plate = "24가 2210"
 print(license_plate[4:])
 
@@ -27,6 +29,7 @@ print(license_plate[-4:])
 # 홀홀홀
 
 # my code
+print("\n023 문자열 인덱싱")
 string = "홀짝홀짝홀짝"
 print(string[0], string[2], string[4], sep="")
 
@@ -40,6 +43,7 @@ print(string[::2])
 # >> string = "PYTHON"
 # 실행 예:
 # NOHTYP
+print("\n024 문자열 슬라이싱")
 string = "PYTHON"
 print(string[::-1])
 
@@ -51,6 +55,7 @@ print(string[::-1])
 # 010 1111 2222
 
 # the answer
+print("\n025 문자열 치환")
 phone_number = "010-1111-2222"
 phone_number1 = phone_number.replace("-", " ")
 print(phone_number1)
@@ -60,6 +65,7 @@ print(phone_number1)
 # 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
 # 실행 예
 # 01011112222
+print("\n26 문자열 다루기")
 phone_number2 = phone_number1.replace(" ", "")
 print(phone_number2)
 
@@ -72,6 +78,7 @@ print(phone_number2)
 # kr
 
 # my code
+print("\n027 문자열 다루기")
 url = "http://sharebook.kr"
 print(url[-2:])
 
@@ -87,6 +94,7 @@ print(url_split[-1])
 # >> lang = 'python'
 # >> lang[0] = 'P'
 # >> print(lang)
+print("\n028 문자열은 immutable")
 # lang = 'python'
 # lang[0] = 'P'
 # print(lang)
@@ -103,6 +111,20 @@ print(url_split[-1])
 # string.replace[a, A]
 
 # the answer
+print("\n029 replace 메서드")
 string = 'abcdfe2a354a32a'
 string = string.replace('a', 'A')
 print(string)
+
+
+# 030 replace 메서드
+# 아래 코드의 실행 결과를 예상해보세요.
+# >> string = 'abcd'
+# >> string.replace('b', 'B')
+# >> print(string)
+print("\n030 replace 메서드")
+string = 'abcd'
+string.replace('b', 'B')
+print(string)
+
+

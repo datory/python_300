@@ -1,6 +1,6 @@
 # 001 print 기초
 # 화면에 Hello World 문자열을 출력하세요.
-print("001 print 기초")
+print("\n001 print 기초")
 print("Hello World")
 print('Hello World')
 
