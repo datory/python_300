@@ -243,3 +243,31 @@ print(타입변환, type(타입변환))
 
 
 
+# 039 문자열 슬라이싱
+# 다음과 같은 문자열에서 '2020/03'만 출력하세요.
+# 분기 = "2020/03(E) (IFRS연결)"
+print("\n039 문자열 슬라이싱")
+분기 = "2020/03(E) (IFRS연결)"
+
+# my code
+print(분기[0:7])
+
+# the answer
+print(분기[:7])
+
+
+# 040 strip 메서드
+# 문자열의 좌우의 공백이 있을 때 이를 제거해보세요.
+# data = "   삼성전자    "
+print("\n040 strip 메서드")
+# my code
+data = "   삼성전자    "
+print(data.replace(" ", ""))
+
+data = "   삼성전자    "
+print(data.strip())
+
+# the answer
+data = "   삼성전자    "
+data1 = data.strip()
+print(data1)
