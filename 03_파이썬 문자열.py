@@ -271,3 +271,48 @@ print(data.strip())
 data = "   삼성전자    "
 data1 = data.strip()
 print(data1)
+
+
+
+
+# 041 upper 메서드
+# 다음과 같은 문자열이 있을 때 이를 대문자 BTC_KRW로 변경하세요.
+# ticker = "btc_krw"
+print("\n041 upper 메서드")
+# my code
+ticker = "btc_krw"
+print(ticker.upper())
+
+# the answer
+ticker = "btc_krw"
+ticker1 = ticker.upper()
+print(ticker1)
+
+
+
+# 042 lower 메서드
+# 다음과 같은 문자열이 있을 때 이를 소문자 btc_krw로 변경하세요.
+# ticker = "BTC_KRW"
+print("\n042 lower 메서드")
+ticker = "BTC_KRW"
+ticker1 = ticker.lower()
+print(ticker1)
+
+
+
+# 043 capitalize 메서드
+# 문자열 'hello'가 있을 때 이를 'Hello'로 변경해보세요.
+print("\n043 capitalize 메서드")
+
+# my code
+ticker = "hello"
+print(ticker.capitalize())
+
+# the answer
+a = "hello"
+a = a.capitalize()
+print(a)
+
+
+
+
