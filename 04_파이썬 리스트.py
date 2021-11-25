@@ -188,3 +188,41 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(nums[1::2])
 
 
+
+# 064
+# 슬라이싱을 사용해서 리스트의 숫자를 역 방향으로 출력하라.
+# nums = [1, 2, 3, 4, 5]
+# 실행 예:
+# [5, 4, 3, 2, 1]
+print('064 리스트 역방향 슬라이싱')
+nums = [1, 2, 3, 4, 5]
+print(nums[::-1])
+
+
+
+
+# 065
+# interest 리스트에는 아래의 데이터가 바인딩되어 있다.
+# interest = ['삼성전자', 'LG전자', 'Naver']
+# interest 리스트를 사용하여 아래와 같이 화면에 출력하라.
+# 출력 예시:
+# 삼성전자 Naver
+print('065 리스트 출력')
+interest = ['삼성전자', 'LG전자', 'Naver']
+print(interest[0], interest[2])
+
+
+
+
+# 066 join 메서드
+# interest 리스트에는 아래의 데이터가 바인딩되어 있다.
+# interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+# interest 리스트를 사용하여 아래와 같이 화면에 출력하라.
+# 출력 예시:
+# 삼성전자 LG전자 Naver SK하이닉스 미래에셋대우
+print('066 join 메서드')
+interest = ['삼성전자', 'LG전자', 'Naver', 'SK하이닉스', '미래에셋대우']
+print(" ".join(interest))
+
+
+
