@@ -31,3 +31,43 @@ my_tuple = (1)
 type (my_tuple)
 
 
+
+# 074
+# 다음 코드를 실행해보고 오류가 발생하는 원인을 설명하라.
+# >> t = (1, 2, 3)
+# >> t[0] = 'a'
+# Traceback (most recent call last):
+#   File "<pyshell#46>", line 1, in <module>
+#     t[0] = 'a'
+# TypeError: 'tuple' object does not support item assignment
+print('074 튜플 오류')
+
+# my code
+# 튜플은 변경이 불가하다.
+
+# the answer
+# tuple은 원소(element)의 값을 변경할 수 없습니다.
+
+
+
+# 075
+# 아래와 같이 t에는 1, 2, 3, 4 데이터가 바인딩되어 있다. t가 바인딩하는 데이터 타입은 무엇인가?
+# t = 1, 2, 3, 4
+print('075 튜플')
+t = 1, 2, 3, 4
+print(type(t))
+# 원칙적으로 튜플은 괄호와 함께 데이터를 정의해야 하지만, 사용자 편의를 위해 괄호 없이도 동작합니다.
+
+
+
+# 076
+# 변수 t에는 아래와 같은 값이 저장되어 있다. 변수 t가 ('A', 'b', 'c') 튜플을 가리키도록 수정 하라.
+# t = ('a', 'b', 'c')
+print('076 튜플')
+
+# my code
+t = ('a', 'b', 'c')
+
+# the answer
+t = ('A', 'b', 'c')
+print(t)
