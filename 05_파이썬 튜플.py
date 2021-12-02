@@ -71,3 +71,20 @@ t = ('a', 'b', 'c')
 # the answer
 t = ('A', 'b', 'c')
 print(t)
+
+
+
+# 077
+# 다음 튜플을 리스트로 변환하라.
+# interest = ('삼성전자', 'LG전자', 'SK Hynix')
+print('077 튜플 리스트로 변환')
+
+# my code
+interest = ('삼성전자', 'LG전자', 'SK Hynix')
+interest = ['삼성전자', 'LG전자', 'SK Hynix']
+print(type(interest))
+
+# the answer
+interest = ('삼성전자', 'LG전자', 'SK Hynix')
+data = list(interest)
+print(type(data))
