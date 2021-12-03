@@ -88,3 +88,14 @@ print(type(interest))
 interest = ('삼성전자', 'LG전자', 'SK Hynix')
 data = list(interest)
 print(type(data))
+
+
+
+# 078
+# 다음 리스트를 튜플로 변경하라.
+# interest = ['삼성전자', 'LG전자', 'SK Hynix']
+print('078 리스트 튜플로 변환')
+interest = ['삼성전자', 'LG전자', 'SK Hynix']
+print(type(tuple(interest)))
+
+
