@@ -99,3 +99,14 @@ interest = ['삼성전자', 'LG전자', 'SK Hynix']
 print(type(tuple(interest)))
 
 
+
+# 079 튜플 언팩킹
+# 다음 코드의 실행 결과를 예상하라.
+# temp = ('apple', 'banana', 'cake')
+# a, b, c = temp
+# print(a, b, c)
+print('079 튜플')
+temp = ('apple', 'banana', 'cake')
+a, b, c = temp
+print(a, b, c)
+
