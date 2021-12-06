@@ -105,8 +105,22 @@ print(type(tuple(interest)))
 # temp = ('apple', 'banana', 'cake')
 # a, b, c = temp
 # print(a, b, c)
-print('079 튜플')
+print('079 튜플 언팩킹')
 temp = ('apple', 'banana', 'cake')
 a, b, c = temp
 print(a, b, c)
 
+
+
+# 080 range 함수
+# 1 부터 99까지의 정수 중 짝수만 저장된 튜플을 생성하라.
+# (2, 4, 6, 8 ... 98)
+print('080 range 함수')
+
+# my code
+num = tuple(range(100))
+print(num)
+
+# the answer
+data = tuple(range(2, 100, 2))
+print( data )
