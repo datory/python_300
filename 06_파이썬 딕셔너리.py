@@ -254,3 +254,16 @@ print(icecream.keys())
 icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
 ice = list(icecream.keys())
 print(ice)
+
+
+
+# 096 딕셔너리 values() 메서드
+# 다음의 딕셔너리에서 values 값으로만 구성된 리스트를 생성하라.
+# icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
+print('096 딕셔너리 values() 메서드')
+icecream = {'탱크보이': 1200, '폴라포': 1200, '빵빠레': 1800, '월드콘': 1500, '메로나': 1000}
+price = list(icecream.values())
+print(price)
+
+
+
