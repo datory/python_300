@@ -299,3 +299,23 @@ new_product = {'팥빙수':2700, '아맛나':1000}
 icecream.update(new_product)
 print(icecream)
 
+#099 zip과 dict
+#아래 두 개의 튜플을 하나의 딕셔너리로 변환하라. keys를 키로, vals를 값으로 result 이름의 딕셔너리로 저장한다.
+#keys = ("apple", "pear", "peach")
+#vals = (300, 250, 400)
+#실행 예시:
+#>> print(result)
+#{'apple': 300, 'pear': 250, 'peach': 400}
+print('099 zip과 dict')
+
+# my code
+keys = ("apple", "pear", "peach")
+vals = (300, 250, 400)
+result = zip(keys, vals)
+print(dict(result))
+
+# the answer
+keys = ("apple", "pear", "peach")
+vals = (300, 250, 400)
+result = dict(zip(keys, vals))
+print(result)
