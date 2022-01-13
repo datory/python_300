@@ -14,3 +14,15 @@ print('아래 코드의 출력 결과를 예상하라')
 print('print(3 == 5)')
 print('False')
 
+
+
+# 103
+# 아래 코드의 출력 결과를 예상하라
+# print(3 < 5)
+print('103')
+print('아래 코드의 출력 결과를 예상하라')
+print('print(3 < 5)')
+print('True')
+
+
+
