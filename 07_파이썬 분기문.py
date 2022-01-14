@@ -26,3 +26,11 @@ print('True')
 
 
 
+# 104
+# 아래 코드의 결과를 예상하라.
+# x = 4
+# print(1 < x < 5)
+print('104')
+print('아래 코드의 결과를 예상하라.')
+print('print(1 < x < 5)')
+print('True')
