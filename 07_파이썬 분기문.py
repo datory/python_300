@@ -34,3 +34,14 @@ print('104')
 print('아래 코드의 결과를 예상하라.')
 print('print(1 < x < 5)')
 print('True')
+
+
+
+# 105
+# 아래 코드의 결과를 예상하라.
+# print ((3 == 3) and (4 != 3))
+print('105')
+print('아래 코드의 결과를 예상하라.')
+print('print ((3 == 3) and (4 != 3))')
+print('True')
+
