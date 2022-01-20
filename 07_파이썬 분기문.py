@@ -76,3 +76,20 @@ print('')
 
 # the answer
 print('조건을 만족하지 않기 때문에 아무 결과도 출력되지 않습니다.')
+
+
+
+# 108
+# 아래 코드의 출력 결과를 예상하라
+# if 4 < 3:
+#     print("Hello World.")
+# else:
+#     print("Hi, there.")
+print('108')
+print('아래 코드의 출력 결과를 예상하라.')
+print('if 4 < 3:')
+print('     print("Hello World.")')
+print('else:')
+print('     print("Hi, there.")')
+print('Hi, there.')
+
