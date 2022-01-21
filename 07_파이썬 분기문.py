@@ -93,3 +93,25 @@ print('else:')
 print('     print("Hi, there.")')
 print('Hi, there.')
 
+
+
+# 109
+# 아래 코드의 출력 결과를 예상하라
+# if True :
+#     print ("1")
+#     print ("2")
+# else :
+#     print("3")
+# print("4")
+print('109')
+print('아래 코드의 출력 결과를 예상하라.')
+print('if True :')
+print('    print ("1")')
+print('    print ("2")')
+print('else :')
+print('    print("3")')
+print('print("4")')
+print('1')
+print('2')
+print('4')
+
