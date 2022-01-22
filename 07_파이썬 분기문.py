@@ -115,3 +115,27 @@ print('1')
 print('2')
 print('4')
 
+
+
+# 110
+# 아래 코드의 출력 결과를 예상하라
+# if True :
+#     if False:
+#         print("1")
+#         print("2")
+#     else:
+#         print("3")
+# else :
+#     print("4")
+# print("5")
+print('110')
+print('아래 코드의 출력 결과를 예상하라.')
+
+# my answer
+print('1')
+print('2')
+print('5')
+
+# the answer
+print('3')
+print('5')
