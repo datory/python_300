@@ -158,3 +158,22 @@ print('111')
 # the answer
 user = input("입력:")
 print(user * 2)
+
+
+
+# 112
+# 사용자로부터 하나의 숫자를 입력받고, 입력 받은 숫자에 10을 더해 출력하라.
+# >> 숫자를 입력하세요: 30
+# 40
+print('112')
+
+# my code
+user = int(input('입력:'))
+print(user+10)
+
+# the answer
+user = input("숫자를 입력하세요: ")
+print(10 + int(user))
+
+
+
