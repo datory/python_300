@@ -176,4 +176,22 @@ user = input("숫자를 입력하세요: ")
 print(10 + int(user))
 
 
+# 113
+# 사용자로부터 하나의 숫자를 입력 받고 짝수/홀수를 판별하라.
+# >> 30
+# 짝수
+print('113')
 
+# my code
+user = input("숫자를 입력하세요: ")
+if int(user)/2 == 0:
+    print('짝수')
+elif int(user)/2 != 0:
+    print('홀수')
+
+# the answer
+user = input("")
+if int(user) % 2 == 0:
+    print("짝수")
+else:
+    print("홀수")
