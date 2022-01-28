@@ -195,3 +195,31 @@ if int(user) % 2 == 0:
     print("짝수")
 else:
     print("홀수")
+
+
+
+# 114
+# 사용자로부터 값을 입력받은 후 해당 값에 20을 더한 값을 출력하라. 단 사용자가 입력한 값과 20을 더한 계산 값이 255를 초과하는 경우 255를 출력해야 한다.
+# >> 입력값: 200
+# 출력값: 220
+# >> 입력값: 240
+# 출력값: 255
+print('114')
+
+# my code
+user = input('숫자를 입력하세요: ')
+if int(user)+20 <= 255:
+    print(int(user)+20)
+elif int(user)+20 > 255:
+    print(255)
+
+
+
+# the answer
+user = input("입력값: ")
+num = 20 + int(user)
+if num > 255:
+    print(255)
+else:
+    print(num)
+
