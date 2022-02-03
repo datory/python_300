@@ -1,6 +1,6 @@
 # 101
 # 파이썬에서 True 혹은 False를 갖는 데이터 타입은 무엇인가?
-print('101')
+print('\n101')
 print('파이썬에서 True 혹은 False를 갖는 데이터 타입은 무엇인가?')
 print('bool type')
 
@@ -9,7 +9,7 @@ print('bool type')
 # 102
 # 아래 코드의 출력 결과를 예상하라
 # print(3 == 5)
-print('102')
+print('\n102')
 print('아래 코드의 출력 결과를 예상하라')
 print('print(3 == 5)')
 print('False')
@@ -19,7 +19,7 @@ print('False')
 # 103
 # 아래 코드의 출력 결과를 예상하라
 # print(3 < 5)
-print('103')
+print('\n103')
 print('아래 코드의 출력 결과를 예상하라')
 print('print(3 < 5)')
 print('True')
@@ -30,7 +30,7 @@ print('True')
 # 아래 코드의 결과를 예상하라.
 # x = 4
 # print(1 < x < 5)
-print('104')
+print('\n104')
 print('아래 코드의 결과를 예상하라.')
 print('print(1 < x < 5)')
 print('True')
@@ -40,7 +40,7 @@ print('True')
 # 105
 # 아래 코드의 결과를 예상하라.
 # print ((3 == 3) and (4 != 3))
-print('105')
+print('\n105')
 print('아래 코드의 결과를 예상하라.')
 print('print ((3 == 3) and (4 != 3))')
 print('True')
@@ -50,7 +50,7 @@ print('True')
 # 106
 # 아래 코드에서 에러가 발생하는 원인에 대해 설명하라.
 # print(3 => 4)
-print('106')
+print('\n106')
 print('아래 코드에서 에러가 발생하는 원인에 대해 설명하라.')
 print('print(3 => 4)')
 
@@ -66,7 +66,7 @@ print('지원하지 않는 연산자입니다.')
 # 아래 코드의 출력 결과를 예상하라
 # if 4 < 3:
 #     print("Hello World")
-print('107')
+print('\n107')
 print('아래 코드의 출력 결과를 예상하라.')
 print('if 4 < 3:')
 print('     print("Hello World")')
@@ -85,7 +85,7 @@ print('조건을 만족하지 않기 때문에 아무 결과도 출력되지 않
 #     print("Hello World.")
 # else:
 #     print("Hi, there.")
-print('108')
+print('\n108')
 print('아래 코드의 출력 결과를 예상하라.')
 print('if 4 < 3:')
 print('     print("Hello World.")')
@@ -103,7 +103,7 @@ print('Hi, there.')
 # else :
 #     print("3")
 # print("4")
-print('109')
+print('\n109')
 print('아래 코드의 출력 결과를 예상하라.')
 print('if True :')
 print('    print ("1")')
@@ -128,7 +128,7 @@ print('4')
 # else :
 #     print("4")
 # print("5")
-print('110')
+print('\n110')
 print('아래 코드의 출력 결과를 예상하라.')
 
 # my answer
@@ -146,7 +146,7 @@ print('5')
 # 사용자로부터 입력받은 문자열을 두 번 출력하라. 아래는 사용자가 "안녕하세요"를 입력한 경우의 출력 결과이다.
 # >> 안녕하세요
 # 안녕하세요안녕하세요
-print('111')
+print('\n111')
 
 # my code
 # a = str(input())
@@ -165,7 +165,7 @@ print(user * 2)
 # 사용자로부터 하나의 숫자를 입력받고, 입력 받은 숫자에 10을 더해 출력하라.
 # >> 숫자를 입력하세요: 30
 # 40
-print('112')
+print('\n112')
 
 # my code
 user = int(input('입력:'))
@@ -180,7 +180,7 @@ print(10 + int(user))
 # 사용자로부터 하나의 숫자를 입력 받고 짝수/홀수를 판별하라.
 # >> 30
 # 짝수
-print('113')
+print('\n113')
 
 # my code
 user = input("숫자를 입력하세요: ")
@@ -204,7 +204,7 @@ else:
 # 출력값: 220
 # >> 입력값: 240
 # 출력값: 255
-print('114')
+print('\n114')
 
 # my code
 user = input('숫자를 입력하세요: ')
@@ -223,3 +223,21 @@ if num > 255:
 else:
     print(num)
 
+
+
+# 115
+# 사용자로부터 하나의 값을 입력받은 후 해당 값에 20을 뺀 값을 출력하라. 단 출력 값의 범위는 0~255이다.
+# 예를 들어 결괏값이 0보다 작은 값이되는 경우 0을 출력하고 255보다 큰 값이 되는 경우 255를 출력해야 한다.
+# >> 입력값: 200
+# 출력값: 180
+# >> 입력값: 15
+# 출력값: 0
+print('\n115')
+user = input('입력값: ')
+num = int(user) - 20
+if num < 0:
+    print('출력값: 0')
+elif num > 255:
+    print('출력값: 255')
+else:
+    print('출력값:', num)
