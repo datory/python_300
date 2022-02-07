@@ -1,5 +1,8 @@
 # 101
 # 파이썬에서 True 혹은 False를 갖는 데이터 타입은 무엇인가?
+from posixpath import split
+
+
 print('\n101')
 print('파이썬에서 True 혹은 False를 갖는 데이터 타입은 무엇인가?')
 print('bool type')
@@ -241,3 +244,31 @@ elif num > 255:
     print('출력값: 255')
 else:
     print('출력값:', num)
+
+
+
+# 116
+# 사용자로부터 입력 받은 시간이 정각인지 판별하라.
+# >> 현재시간:02:00
+# 정각 입니다.
+# >> 현재시간:03:10
+# 정각이 아닙니다
+print('\n116')
+
+# my code
+# user = input('현재시간:')
+# user = user.split(':')
+# minute = user[1]
+
+# if minute == '00':
+#     print('정각 입니다.')
+# else:
+#     print('정각이 아닙니다.')
+
+# the answer
+time = input("현재시간: ")
+if time[-2:] == "00":
+    print("정각 입니다.")
+else:
+    print("정각이 아닙니다.")
+
