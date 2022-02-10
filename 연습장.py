@@ -1,14 +1,12 @@
-# 117
-# 사용자로 입력받은 단어가 아래 fruit 리스트에 포함되어 있는지를 확인하라. 포함되었다면 "정답입니다"를 아닐 경우 "오답입니다" 출력하라.
-# fruit = ["사과", "포도", "홍시"]
-# >> 좋아하는 과일은? 사과
-# 정답입니다.
-print('\n117')
-fruit = ["사과", "포도", "홍시"]
-user = input('좋아하는 과일은? ')
-if user == fruit[0]:
-    print('정답입니다.')
-elif user == fruit[1]:
-    print('정답입니다.')
-elif user == fruit[2]:
-    print('정답입니다.')
+# 118
+# 투자 경고 종목 리스트가 있을 때 사용자로부터 종목명을 입력 받은 후 
+# 해당 종목이 투자 경고 종목이라면 '투자 경고 종목입니다'를 
+# 아니면 "투자 경고 종목이 아닙니다."를 출력하는 프로그램을 작성하라.
+# warn_investment_list = ["Microsoft", "Google", "Naver", "Kakao", "SAMSUNG", "LG"]
+print('\n118')
+warn_investment_list = ["Microsoft", "Google", "Naver", "Kakao", "SAMSUNG", "LG"]
+user = input('투자 종목: ')
+if user in warn_investment_list:
+    print('투자 경고 종목입니다.')
+else:
+    print('투자 경고 종목이 아닙니다.')
