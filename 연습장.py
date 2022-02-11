@@ -1,12 +1,13 @@
-# 118
-# 투자 경고 종목 리스트가 있을 때 사용자로부터 종목명을 입력 받은 후 
-# 해당 종목이 투자 경고 종목이라면 '투자 경고 종목입니다'를 
-# 아니면 "투자 경고 종목이 아닙니다."를 출력하는 프로그램을 작성하라.
-# warn_investment_list = ["Microsoft", "Google", "Naver", "Kakao", "SAMSUNG", "LG"]
+# 119
+# 아래와 같이 fruit 딕셔너리가 정의되어 있다.
+# 사용자가 입력한 값이 딕셔너리 키 (key) 값에 포함되었다면 "정답입니다"를 아닐 경우 "오답입니다" 출력하라.
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# >> 제가좋아하는계절은: 봄
+# 정답입니다.
 print('\n118')
-warn_investment_list = ["Microsoft", "Google", "Naver", "Kakao", "SAMSUNG", "LG"]
-user = input('투자 종목: ')
-if user in warn_investment_list:
-    print('투자 경고 종목입니다.')
+fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+user = input('제가 좋아하는 계절은: ')
+if user in fruit:
+    print('정답입니다.')
 else:
-    print('투자 경고 종목이 아닙니다.')
+    print('오답입니다.')
