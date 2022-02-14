@@ -1,13 +1,23 @@
-# 121
-# 사용자로부터 문자 한 개를 입력 받고, 소문자일 경우 대문자로, 대문자 일 경우, 소문자로 변경해서 출력하라.
-# >> a
-# A
-# 힌트-1 : islower() 함수는 문자의 소문자 여부를 판별합니다.
-# 만약 소문자일 경우 True, 대문자일 경우 False를 반환합니다.
-# 힌트-2 : upper() 함수는 대문자로, lower() 함수는 소문자로 변경합니다.
-print('\n121')
-user = input('알파벳을 입력하세요: ')
-if user.islower():
-    print(user.upper())
-else:
-    print(user.lower())
+# 122
+# 점수 구간에 해당하는 학점이 아래와 같이 정의되어 있다.
+# 사용자로부터 score를 입력받아 학점을 출력하라.
+# 점수	학점
+# 81~100 A
+# 61~80	B
+# 41~60	C
+# 21~40	D
+# 0~20	E
+# >> score: 83
+# grade is A
+print('\n122')
+user = int(input('학점을 입력하세요: '))
+if user >= 81 and user <= 100:
+    print('grade is A')
+elif user >= 61 and user <= 80:
+    print('grade is B')
+elif user >= 41 and user <= 60:
+    print('grade is C')
+elif user >= 21 and user <= 40:
+    print('grade is D')
+elif user >= 0 and user <= 20:
+    print('grade is E')
