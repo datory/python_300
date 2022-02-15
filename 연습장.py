@@ -1,23 +1,23 @@
-# 122
-# 점수 구간에 해당하는 학점이 아래와 같이 정의되어 있다.
-# 사용자로부터 score를 입력받아 학점을 출력하라.
-# 점수	학점
-# 81~100 A
-# 61~80	B
-# 41~60	C
-# 21~40	D
-# 0~20	E
-# >> score: 83
-# grade is A
-print('\n122')
-user = int(input('학점을 입력하세요: '))
-if user >= 81 and user <= 100:
-    print('grade is A')
-elif user >= 61 and user <= 80:
-    print('grade is B')
-elif user >= 41 and user <= 60:
-    print('grade is C')
-elif user >= 21 and user <= 40:
-    print('grade is D')
-elif user >= 0 and user <= 20:
-    print('grade is E')
+# 123
+# 사용자로부터 달러, 엔, 유로, 또는 위안 금액을 입력받은 후 이를 원으로 변환하는 프로그램을 작성하라.
+# 각 통화별 환율은 다음과 같다. 사용자는 100 달러, 1000 엔, 13 유로, 100 위안과 같이 금액과 통화명 사이에 공백을 넣어 입력한다고 가정한다.
+# 통화명	환율
+# 달러	1167
+# 엔	1.096
+# 유로	1268
+# 위안	171
+# >> 입력: 100 달러
+# 116700.00 원
+print('\n123')
+
+user = input('입력: ')
+user = user.split()
+print(user)
+if user[1] == '달러':
+    print(int(user[0])*1167)
+elif user[1] == '엔':
+    print(int(user[0])*1.096)
+elif user[1] == '유로':
+    print(int(user[0])*1268)
+elif user[1] == '위안':
+    print(int(user[0])*171)
