@@ -3,6 +3,9 @@
 # 과일 = ["사과", "귤", "수박"]
 # for 변수 in 과일:
 #     print(변수)
+from calendar import c
+
+
 print('131')
 
 # my answer
@@ -74,5 +77,26 @@ print("출력:", "A")
 print("출력:", "B")
 print("출력:", "C")
 
+
+
+# 135
+# for문을 풀어서 동일한 동작을 하는 코드를 작성하라.
+# for 변수 in ["A", "B", "C"]:
+#   b = 변수.lower()
+#   print("변환:", b)
+print('\n 135')
+변수 = 'A'
+b = 변수.lower()
+print('변환:', b)
+변수 = 'B'
+b = 변수.lower()
+print('변환:', b)
+변수 = 'C'
+b = 변수.lower()
+print('변환:', b)
+
+print('변환:', 'a')
+print('변환:', 'b')
+print('변환:', 'c')
 
 
