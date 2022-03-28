@@ -237,3 +237,28 @@ print('\n 144')
 리스트 = ['dog', 'cat', 'parrot']
 for 동물 in 리스트:
     print(동물, len(동물))
+
+
+
+# 145
+# 리스트에 동물 이름 저장돼 있다.
+# 리스트 = ['dog', 'cat', 'parrot']
+# for문을 사용해서 동물 이름의 첫 글자만 출력하라.
+# d
+# c
+# p
+print('\n 145')
+
+# my code
+리스트 = ['dog', 'cat', 'parrot']
+for 동물 in 리스트:
+    print(동물[:1])
+
+# the answer
+리스트 = ['dog', 'cat', 'parrot']
+for 이름 in 리스트:
+  print(이름[0])
+
+
+
+
