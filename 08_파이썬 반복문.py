@@ -22,7 +22,7 @@ print('131')
 # 과일 = ["사과", "귤", "수박"]
 # for 변수 in 과일:
 #   print("#####")
-print('\n 132')
+print('\n132')
 # my answer
 # #####
 
@@ -37,7 +37,7 @@ print('\n 132')
 # 다음 for 문과 동일한 기능을 수행하는 코드를 작성하세요.
 # for 변수 in ["A", "B", "C"]:
 #   print(변수)
-print('\n 133')
+print('\n133')
 
 # my code
 print("A")
@@ -65,7 +65,7 @@ print("C")
 # for문을 풀어서 동일한 동작을하는 코드를 작성하라.
 # for 변수 in ["A", "B", "C"]:
 #   print("출력:", 변수)
-print('\n 134')
+print('\n134')
 변수 = 'A'
 print('출력:', 변수)
 변수 = 'B'
@@ -84,7 +84,7 @@ print("출력:", "C")
 # for 변수 in ["A", "B", "C"]:
 #   b = 변수.lower()
 #   print("변환:", b)
-print('\n 135')
+print('\n135')
 변수 = 'A'
 b = 변수.lower()
 print('변환:', b)
@@ -109,7 +109,7 @@ print('변환:', 'c')
 # print(변수)
 # 변수 = 30
 # print(변수)
-print('\n 136')
+print('\n136')
 for 변수 in [10, 20, 30]:
     print(변수)
 
@@ -124,7 +124,7 @@ for 변수 in 리스트:
 # print(10)
 # print(20)
 # print(30)
-print('\n 137')
+print('\n137')
 for 변수 in [10, 20, 30]:
     print(변수)
 
@@ -138,7 +138,7 @@ for 변수 in [10, 20, 30]:
 # print("-------")
 # print(30)
 # print("-------")
-print('\n 138')
+print('\n138')
 for 변수 in [10, 20, 30]:
     print(변수)
     print("-------")
@@ -151,7 +151,7 @@ for 변수 in [10, 20, 30]:
 # print(10)
 # print(20)
 # print(30)
-print('\n 139')
+print('\n139')
 
 # my code
 for 변수 in ['++++', 10, 20, 30]:
@@ -170,7 +170,7 @@ for 변수 in [10, 20, 30]:
 # print("-------")
 # print("-------")
 # print("-------")
-print('\n 140')
+print('\n140')
 
 # my code
 for 변수 in ['-------', '-------', '-------', '-------']:
@@ -192,7 +192,7 @@ for 변수 in [1, 2, 3, 4]:
 # 110
 # 210
 # 310
-print('\n 141')
+print('\n141')
 리스트 = [100, 200, 300]
 for 변수 in 리스트:
     print(변수+10)
@@ -205,7 +205,7 @@ for 변수 in 리스트:
 # 오늘의 메뉴: 김밥
 # 오늘의 메뉴: 라면
 # 오늘의 메뉴: 튀김
-print('\n 142')
+print('\n142')
 리스트 = ["김밥", "라면", "튀김"]
 for 변수 in 리스트:
     print('오늘의 메뉴:', 변수)
@@ -219,7 +219,7 @@ for 변수 in 리스트:
 # 6
 # 4
 # 4
-print('\n 143')
+print('\n143')
 리스트 = ["SK하이닉스", "삼성전자", "LG전자"]
 for 변수 in 리스트:
     print(len(변수))
@@ -233,7 +233,7 @@ for 변수 in 리스트:
 # dog 3
 # cat 3
 # parrot 6
-print('\n 144')
+print('\n144')
 리스트 = ['dog', 'cat', 'parrot']
 for 동물 in 리스트:
     print(동물, len(동물))
@@ -247,7 +247,7 @@ for 동물 in 리스트:
 # d
 # c
 # p
-print('\n 145')
+print('\n145')
 
 # my code
 리스트 = ['dog', 'cat', 'parrot']
@@ -268,7 +268,7 @@ for 이름 in 리스트:
 # 3 x 1
 # 3 x 2
 # 3 x 3
-print('\n 146')
+print('\n146')
 리스트 = [1, 2, 3]
 for 숫자 in 리스트:
     print('3 x', 숫자)
@@ -282,7 +282,7 @@ for 숫자 in 리스트:
 # 3 x 1 = 3
 # 3 x 2 = 6
 # 3 x 3 = 9
-print('\n 147')
+print('\n147')
 
 # my code
 리스트 = [1, 2, 3]
@@ -296,3 +296,21 @@ for 변수 in 리스트:
 
 
 
+# 148
+# 리스트에는 네 개의 문자열이 바인딩돼 있다.
+# 리스트 = ["가", "나", "다", "라"]
+# for문을 사용해서 다음과 같이 출력하라.
+# 나
+# 다
+# 라
+print('\n148')
+
+# my code
+리스트 = ["가", "나", "다", "라"]
+for 한글 in 리스트:
+    print(한글)
+
+# the answer
+리스트 = ["가", "나", "다", "라"]
+for 변수 in 리스트[1:]:
+  print(변수)
