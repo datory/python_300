@@ -405,3 +405,17 @@ for 변수 in 리스트:
 for 변수 in 리스트:
     if (변수 < 20) and (변수 % 3 == 0):
         print(변수)
+
+
+
+# 154
+# 리스트에서 세 글자 이상의 문자를 화면에 출력하라
+# 리스트 = ["I", "study", "python", "language", "!"]
+# study
+# python
+# language
+print('\n154')
+리스트 = ["I", "study", "python", "language", "!"]
+for 변수 in 리스트:
+    if len(변수) >= 3:
+        print(변수) 
