@@ -419,3 +419,23 @@ print('\n154')
 for 변수 in 리스트:
     if len(변수) >= 3:
         print(변수) 
+
+
+
+# 155
+# 리스트에서 대문자만 화면에 출력하라.
+# 리스트 = ["A", "b", "c", "D"]
+# A
+# D
+# (참고) isupper() 메서드는 대문자 여부를 판별합니다.
+# >> 변수 = "A"
+# >> 변수.isupper()
+# True
+# >> 변수 = "a"
+# >> 변수.isupper()
+# False
+print('\n155')
+리스트 = ["A", "b", "c", "D"]
+for 변수 in 리스트:
+    if 변수.isupper():
+        print(변수)
