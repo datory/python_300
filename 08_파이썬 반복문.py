@@ -439,3 +439,36 @@ print('\n155')
 for 변수 in 리스트:
     if 변수.isupper():
         print(변수)
+
+
+
+# 156
+# 리스트에서 소문자만 화면에 출력하라.
+# 리스트 = ["A", "b", "c", "D"]
+# b
+# c
+print('\n156')
+
+# my code
+리스트 = ["A", "b", "c", "D"]
+for 변수 in 리스트:
+    if 변수.islower():
+        print(변수)
+
+# the answer
+# 비교 연산자를 사용해서 다음과 같이 표현할 수 있습니다.
+리스트 = ["A", "b", "c", "D"]
+for 변수 in 리스트:
+  if 변수.isupper() == False:
+    print(변수)
+    
+리스트 = ["A", "b", "c", "D"]
+for 변수 in 리스트:
+  if 변수.isupper() != True:
+    print(변수)
+
+# 논리 연산자 not을 사용할 수도 있습니다.
+리스트 = ["A", "b", "c", "D"]
+for 변수 in 리스트:
+  if not 변수.isupper():
+    print(변수)
