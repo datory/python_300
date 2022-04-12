@@ -472,3 +472,27 @@ for 변수 in 리스트:
 for 변수 in 리스트:
   if not 변수.isupper():
     print(변수)
+
+
+
+# 157
+# 이름의 첫 글자를 대문자로 변경해서 출력하라.
+
+# 리스트 = ['dog', 'cat', 'parrot']
+# Dog
+# Cat
+# Parrot
+# (참고) upper() 메서드는 문자열을 대문자로 변경합니다.
+
+# >> 변수 = "a"
+# >> a.upper()
+# A
+# >> 변수 = "abc"
+# >> 변수.upper()
+# ABC
+print('\n157')
+리스트 = ['dog', 'cat', 'parrot']
+for 변수 in 리스트:
+    print(변수.upper())
+
+
