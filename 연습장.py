@@ -1,22 +1,37 @@
-# 130
-# 아래 코드는 비트코인의 가격 정보를 딕셔너리로 가져오는 코드이다.
-# import requests
-# btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
-# btc 딕셔너리 안에는 시가, 종가, 최고가, 최저가 등이 저장되어 있다.
-# 최고가와 최저가의 차이를 변동폭으로 정의할 때 (시가 + 변동폭)이 최고가 보다 높을 경우 "상승장", 그렇지 않은 경우 "하락장" 문자열을 출력하라.
-# Key Name	Description
-# opening_price	최근 24시간 내 시작 거래금액
-# closing_price	최근 24시간 내 마지막 거래금액
-# min_price	최근 24시간 내 최저 거래금액
-# max_price	최근 24시간 내 최고 거래금액
-print('\n130')
+# 157
+# 이름의 첫 글자를 대문자로 변경해서 출력하라.
 
-import requests
-btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
+# 리스트 = ['dog', 'cat', 'parrot']
+# Dog
+# Cat
+# Parrot
+# (참고) upper() 메서드는 문자열을 대문자로 변경합니다.
 
-range = max_price - min_price
-present = opening_price + range
-if present > max_price:
-    print("상승장")
-else:
-    print("하락장")
+# >> 변수 = "a"
+# >> a.upper()
+# A
+# >> 변수 = "abc"
+# >> 변수.upper()
+# ABC
+print('\n157')
+
+# my code
+리스트 = ['dog', 'cat', 'parrot']
+for 변수 in 리스트:
+    print(변수[0].upper(), 변수[1:])
+
+# the answer
+# 지금까지 배웠던 내용을 모두 응용해야 하는 문제입니다. 첫 번째 단어만 대문자로 변경해야하기 때문에 아래의 순서로 처리해야 합니다.
+# 1) 인덱싱으로 첫번째 문자를 가져온다.
+# 2) upper() 함수로 대문자로 변경한다.
+# 3) 변경한 대문자와 나머지 문자를 이어붙인다.
+# 정리한 내용을 코드로 작성하면 다음과 같습니다.
+리스트 = ['dog', 'cat', 'parrot']
+for 변수 in 리스트:
+  첫글자 = 변수[0]              # 1)
+  대문자 = 첫글자.upper()     # 2)
+  print(대문자 + 변수[1:])      # 3)
+
+# 간단하기 때문에 한줄에 코드를 작성해도 좋습니다.
+for 변수 in 리스트:
+  print(변수[0].upper() + 변수[1:])
