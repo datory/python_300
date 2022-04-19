@@ -523,11 +523,17 @@ for 변수 in 리스트:
 # ex01
 # intro
 print('\n158')
+
+# my code
+# 리스트 = ['hello.py', 'ex01.py', 'intro.hwp']
+# 리스트[:].split(.)
+# print(리스트)
+# for 변수 in 리스트:
+#     print(변수)
+
+# the answer
 리스트 = ['hello.py', 'ex01.py', 'intro.hwp']
-리스트[:].split(.)
-print(리스트)
 for 변수 in 리스트:
-    print(변수)
-
-
+  split = 변수.split(".")
+  print(split[0])  
 
