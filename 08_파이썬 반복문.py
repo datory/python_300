@@ -574,3 +574,12 @@ for 변수 in 리스트:
   split = 변수.split(".")
   if (split[1] == "h") or (split[1] == "c"):
     print(변수)
+
+
+
+# 161
+# for문과 range 구문을 사용해서 0~99까지
+# 한 라인에 하나씩 순차적으로 출력하는 프로그램을 작성하라.
+print('\n161')
+for 변수 in range(100):
+  print(변수)
