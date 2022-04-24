@@ -602,3 +602,30 @@ for 변수 in range(100):
 print('\n162')
 for i in range(2002, 2051, 4):
   print(i)
+
+
+
+# 163
+# 1부터 30까지의 숫자 중 3의 배수를 출력하라.
+# 3 
+# 6 
+# 9 
+# 12 
+# 15 
+# 18 
+# 21 
+# 24 
+# 27 
+# 30
+print('\n163')
+
+# my code
+for x in range(0, 31, 3):
+  if x == 0:
+    pass
+  else:
+    print(x)
+
+# the answer
+for num in range(3, 31, 3):
+    print (num)
