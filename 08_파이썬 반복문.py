@@ -629,3 +629,17 @@ for x in range(0, 31, 3):
 # the answer
 for num in range(3, 31, 3):
     print (num)
+
+
+
+# 164
+# 99부터 0까지 1씩 감소하는 숫자들을, 한 라인에 하나씩 출력하라.
+print('\n164')
+
+# my code
+for num in range(99, -1, -1):
+  print(num)
+
+# the answer
+for i in range(100):
+    print(99 - i)
