@@ -643,3 +643,28 @@ for num in range(99, -1, -1):
 # the answer
 for i in range(100):
     print(99 - i)
+
+
+
+# 165
+# for문을 사용해서 아래와 같이 출력하라.
+# 0.0
+# 0.1
+# 0.2
+# 0.3
+# 0.4
+# 0.5
+# ...
+# 0.9
+print('\n165')
+
+# my code
+# for num in range(0, 1, 0.1):
+#   print(num)
+
+# the answer
+for num in range(10) :
+    print(num / 10)
+
+
+
