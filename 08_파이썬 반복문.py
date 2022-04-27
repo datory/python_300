@@ -668,3 +668,23 @@ for num in range(10) :
 
 
 
+# 166
+# 구구단 3단을 출력하라.
+# 3x1 = 3
+# 3x2 = 6
+# 3x3 = 9
+# 3x4 = 12
+# 3x5 = 15
+# 3x6 = 18
+# 3x7 = 21
+# 3x8 = 24
+# 3x9 = 27
+print('\n166')
+
+# my code
+for num in range(1, 10):
+  print(num * 3)
+
+# the answer
+for i in range(1, 10) :
+    print (3, "x", i, " = ", 3 * i)
