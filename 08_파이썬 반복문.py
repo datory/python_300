@@ -688,3 +688,33 @@ for num in range(1, 10):
 # the answer
 for i in range(1, 10) :
     print (3, "x", i, " = ", 3 * i)
+
+
+
+# 167
+# 구구단 3단을 출력하라. 단 홀수 번째만 출력한다.
+# 3x1 = 3
+# 3x3 = 9
+# 3x5 = 15
+# 3x7 = 21
+# 3x9 = 27
+print('\n167')
+
+# my code
+for num in range(1, 10):
+  if num % 2 == 1:
+    print(3, 'x', num, '=', num * 3)
+
+# the answer
+# range(1, 10, 2)를 사용해서 홀수를 만듭니다.
+num = 3
+for i in range(1, 10, 2) :
+    print (num, "x", i, " = ", num * i)
+
+# 혹은 조건문을 사용해서 해결할 수도 있습니다.
+num = 3
+for i in range(1, 10) :
+    if i % 2 == 1 :
+        print (num, "x", i, " = ", num * i)
+
+        
