@@ -717,4 +717,29 @@ for i in range(1, 10) :
     if i % 2 == 1 :
         print (num, "x", i, " = ", num * i)
 
-        
+
+
+# 168
+# 1~10까지의 숫자에 대해 모두 더한 값을 출력하는 프로그램을 for 문을 사용하여 작성하라.
+# 합 : 55
+print('\n168')
+
+# my code
+num = 0
+for i in range(1, 11):
+  num = num + i
+print(num)
+
+# the answer
+# hab 이라는 변수에 0을 저장하고, for 문을 통해 모든 값에 대해 누적합니다.
+hab = 0
+for i in range(1, 11):
+    hab += i
+print ("합 :", hab)
+
+# hab += i 는 아래 코드를 축약해서 작성한 것입니다.
+hab = hab + i
+
+
+
+
