@@ -751,3 +751,24 @@ for i in range(1, 11):
   if i % 2 == 1:
     sum += i
 print("합 :", sum)
+
+
+
+# 170
+# 1~10까지의 숫자를 모두 곱한 값을 출력하는 프로그램을 for 문을 사용하여 작성하라.
+print('\n170')
+
+# my code
+multi = 0
+for i in range(1, 11):
+  multi += i * i
+  print(multi)
+
+# the answer
+result = 1
+for i in range(1, 11) :
+    result *= i
+print(result)
+
+# result *= i 는 아래 코드를 축약해서 작성한 것입니다.
+# result = result * i
