@@ -811,7 +811,13 @@ for i in range(len(price_list)):
 # 2 32000
 # 3 32500
 print('\n172')
+
+# my code
 price_list = [32100, 32150, 32000, 32500]
 for i in range(len(price_list)):
   print(i, price_list[i])
 
+# the answer
+price_list = [32100, 32150, 32000, 32500]
+for i, data in enumerate(price_list):
+    print(i, data)
