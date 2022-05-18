@@ -833,5 +833,12 @@ for i, data in enumerate(price_list):
 # 0 32500
 print('\n173')
 
+# the answer
+for i in range(len(price_list)):
+    print(3 - i, price_list[i])
+
+# 3이라는 숫자보다는 일반적인 형태로 아래와 같이 코딩하는게 좋습니다.
+for i in range(len(price_list)):
+    print((len(price_list) - 1) - i, price_list[i])
 
 
