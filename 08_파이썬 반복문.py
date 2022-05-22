@@ -857,3 +857,14 @@ for i in range(1, 4):
     print(90 + 10 * i, price_list[i])
 
 
+
+# 175
+# my_list를 아래와 같이 출력하라.
+# my_list = ["가", "나", "다", "라"]
+# 가 나
+# 나 다
+# 다 라
+print('\n175')
+my_list = ["가", "나", "다", "라"]
+for i in my_list:
+  print(i)
