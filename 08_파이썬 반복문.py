@@ -914,5 +914,6 @@ for i in range( 1, len(my_list) ) :
 # 다 라 마
 print('\n176')
 my_list = ["가", "나", "다", "라", "마"]
-
+for i in range(2, len(my_list) ) :
+  print(my_list[i-2], my_list[i-1], my_list[i])
 
