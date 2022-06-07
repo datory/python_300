@@ -972,11 +972,18 @@ for i in range(0, len(my_list)-2):
 # low_prices  = [100, 200, 400, 800, 1000]
 # high_prices = [150, 300, 430, 880, 1000]
 print('\n180')
+
+# my code
 low_prices  = [100, 200, 400, 800, 1000]
 high_prices = [150, 300, 430, 880, 1000]
 for i in range(0, len(low_prices)):
   print(high_prices[i] - low_prices[i])
 
+# the answer
+volatility = []
+for i in range(len(low_prices)) :
+    volatility.append(high_prices[i] - low_prices[i])
+print(volatility)
 
 # 181
 # 아래 표에서 하나의 행을 하나의 리스트로, 총 3개의 리스트를 갖는 이차원 리스트 apart를 정의하라.
