@@ -992,3 +992,14 @@ print(volatility)
 # 301호	302호
 print('\n181')
 
+# my code
+list_1 = ['101호', '102호']
+list_2 = ['201호', '202호']
+list_3 = ['301호', '302호']
+print(list_1)
+print(list_2)
+print(list_3)
+
+# the answer
+apart = [ ["101호", "102호"], ["201호", "202호"], ["301호", "302호"] ]
+print(apart)
