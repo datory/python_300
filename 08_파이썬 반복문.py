@@ -1026,3 +1026,11 @@ print(stock)
 # 200	210
 # 300	330
 print('\n183')
+
+# my code
+stock = {'시가':'종가', 100:80, 200:210, 300:330}
+print(stock)
+
+# the answer
+stock = {"시가": [100, 200, 300], "종가": [80, 210, 330] }
+print(stock)
