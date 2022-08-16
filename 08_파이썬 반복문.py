@@ -1288,3 +1288,36 @@ for line in data:
     for column in line:
         print(column * 1.00014)
     print("----")
+
+
+
+# 193
+# 192 번 문제의 결괏값을 result 이름의 리스트에 1차원 배열로 저장하라.
+# >> print(result)
+# [2000.28, 3050.427, 2050.2870000000003, 1980.2772, 7501.05, 2050.2870000000003, 2050.2870000000003, ...]
+print('\n193')
+
+# my code
+data = [
+    [ 2000,  3050,  2050,  1980],
+    [ 7500,  2050,  2050,  1980],
+    [15450, 15050, 15550, 14900]
+]
+result = []
+for line in data:
+    for column in line:
+        print(column * 1.00014)
+    print("----")
+print(result)
+
+# the answer
+data = [
+    [ 2000,  3050,  2050,  1980],
+    [ 7500,  2050,  2050,  1980],
+    [15450, 15050, 15550, 14900]
+]
+result = []
+for line in data:
+    for column in line:
+        result.append(column * 1.00014)
+print(result)
