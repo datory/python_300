@@ -1334,6 +1334,7 @@ print(result)
 # ]
 print('\n194')
 
+# my code
 data = [
     [ 2000,  3050,  2050,  1980],
     [ 7500,  2050,  2050,  1980],
@@ -1342,5 +1343,37 @@ data = [
 result = []
 for line in data:
     for column in line:
-        print(column * 1.00014)
+        result.append(column * 1.00014)
+print(result)
+
+# the answer
+data = [
+    [ 2000,  3050,  2050,  1980],
+    [ 7500,  2050,  2050,  1980],
+    [15450, 15050, 15550, 14900]
+]
+result = []
+for line in data:
+    sub = []
+    for column in line:
+        sub.append(column * 1.00014)
+    result.append(sub)
+print(result)
+
+
+# 195
+# ohlc 리스트에는 시가(open), 고가 (high), 저가 (low) , 종가(close)가 날짜별로 저장돼 있다.
+# 화면에 종가데이터를 출력하라.
+# ohlc = [["open", "high", "low", "close"],
+#         [100, 110, 70, 100],
+#         [200, 210, 180, 190],
+#         [300, 310, 300, 310]]
+# 100
+# 190
+# 310
+# print('\n195')
+# ohlc = [["open", "high", "low", "close"],
+#         [100, 110, 70, 100],
+#         [200, 210, 180, 190],
+#         [300, 310, 300, 310]]
 
