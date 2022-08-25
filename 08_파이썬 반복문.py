@@ -1371,9 +1371,21 @@ print(result)
 # 100
 # 190
 # 310
-# print('\n195')
+print('\n195')
+
+# my code
 # ohlc = [["open", "high", "low", "close"],
 #         [100, 110, 70, 100],
 #         [200, 210, 180, 190],
 #         [300, 310, 300, 310]]
+# for x in ohlc:
+#     for y in x:
+#         print(y[3])
 
+# the answer
+ohlc = [["open", "high", "low", "close"],
+        [100, 110, 70, 100],
+        [200, 210, 180, 190],
+        [300, 310, 300, 310]]
+for row in ohlc[1:]:
+    print(row[3])
