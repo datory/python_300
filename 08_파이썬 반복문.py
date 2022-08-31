@@ -1455,12 +1455,25 @@ for row in ohlc[1:]:
 # [40, 30, 10]
 print('\n198')
 
+# my code
 ohlc = [["open", "high", "low", "close"],
         [100, 110, 70, 100],
         [200, 210, 180, 190],
         [300, 310, 300, 310]]
 volatility = []
 for row in ohlc[1:]:
-    for col in row:
-        volatility.append(col[1]-col[2])
+    volatility.append(row[1]-row[2])
 print(volatility)
+
+# the answer
+# range 구문을 사용해서도 문제를 풀 수 있습니다.
+ohlc = [["open", "high", "low", "close"],
+        [100, 110, 70, 100],
+        [200, 210, 180, 190],
+        [300, 310, 300, 310]]
+volatility = []
+for i in range(1, len(ohlc)):
+    volatility.append(ohlc[i][1]-ohlc[i][2])
+print(volatility)
+
+
