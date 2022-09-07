@@ -1531,4 +1531,3 @@ profit = 0
 for row in ohlc[1:]:
     profit += (row[3] - row[0])
 print(profit)
-
