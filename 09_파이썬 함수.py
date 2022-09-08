@@ -10,3 +10,10 @@ print(print_coin)
 def print_coin():
     print("비트코인")
 print_coin()
+
+
+
+# 202
+# 201번에서 정의한 함수를 호출하라.
+print('\n201')
+print_coin()
