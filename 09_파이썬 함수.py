@@ -15,14 +15,14 @@ print_coin()
 
 # 202
 # 201번에서 정의한 함수를 호출하라.
-print('\n201')
+print('\n202')
 print_coin()
 
 
 
 # 203
 # 201번에서 정의한 print_coin 함수를 100번 호출하라.
-print('\n202')
+print('\n203')
 
 # my code
 num = 100
@@ -32,3 +32,14 @@ for x in range(num):
 # the answer
 for i in range(100):
     print_coin()
+
+
+
+# 204
+# "비트코인" 문자열을 100번 화면에 출력하는 print_coins() 함수를 정의하라.
+print('\n204')
+
+def print_coin_100():
+    for i in range(100):
+        print('비트코인')
+print_coin_100()
