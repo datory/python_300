@@ -43,3 +43,12 @@ def print_coin_100():
     for i in range(100):
         print('비트코인')
 print_coin_100()
+
+
+
+# 205
+# 아래의 에러가 발생하는 이유에 대해 설명하라.
+
+# hello()
+# def hello():
+#     print("Hi")
