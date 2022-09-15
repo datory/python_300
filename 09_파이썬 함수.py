@@ -56,10 +56,31 @@ print_coin_100()
 # 실행 예
 # NameError: name 'hello' is not defined
 
+print('\n205')
 # my answer
 # hell() 함수를 먼저 정의안하고 불러와서 에러가 뜬다.
 
 # the answer
 # 함수가 정의되기 전에 호출되어서 에러가 발생합니다.
+
+
+
+# 206
+# 아래 코드의 실행 결과를 예측하라.
+
+# def message() :
+#     print("A")
+#     print("B")
+
+# message()
+# print("C")
+# message()
+print('\n206')
+# my answer
+# A
+# B
+# C
+# A
+# B
 
 
