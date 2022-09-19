@@ -55,8 +55,8 @@ print_coin_100()
 
 # 실행 예
 # NameError: name 'hello' is not defined
-
 print('\n205')
+
 # my answer
 # hell() 함수를 먼저 정의안하고 불러와서 에러가 뜬다.
 
@@ -76,6 +76,7 @@ print('\n205')
 # print("C")
 # message()
 print('\n206')
+
 # my answer
 # A
 # B
@@ -93,8 +94,32 @@ print('\n206')
 # print("C")
 # message()
 print('\n207')
+
 # my answer
 # A
 # C
 # B
+
+
+
+# 208
+# 아래 코드의 실행 결과를 예측하라. (읽기 어려운 코드의 예입니다.)
+# print("A")
+# def message1() :
+#     print("B")
+# print("C")
+# def message2() :
+#     print("D")
+# message1()
+# print("E")
+# message2()
+print('\n208')
+
+# my answer
+# A
+# C
+# B
+# E
+# D
+
 
