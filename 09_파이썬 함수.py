@@ -225,3 +225,18 @@ print('\n214')
 # 정의된 함수는 같은 타입의 두 개의 값을 입력 받아 덧셈 연산을 적용하려는 의도로 설계됐습니다.
 # 하지만 함수를 호출 할때 문자열과 숫자를 입력해서 문자열과 숫자는 더할 수 없다는 에러가 발생합니다.
 
+
+
+# 215
+# 하나의 문자를 입력받아 문자열 끝에 ":D" 스마일 문자열을 이어 붙여 출력하는 print_with_smile 함수를 정의하라.
+print('\n215')
+
+# my code
+def print_with_smile(a):
+    print(a + ':D')
+
+print_with_smile('hello')
+
+# the answer
+def print_with_smile (string) :
+    print (string + ":D")
