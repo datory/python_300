@@ -246,6 +246,22 @@ def print_with_smile (string) :
 # 216
 # 215에서 정의한 함수를 호출하라. 파라미터는 "안녕하세요"로 입력하라.
 print('\n216')
+
+# my code
 print_with_smile('안녕하세요')
 
 
+
+# 217
+# 현재 가격을 입력 받아 상한가 (30%)를 출력하는 print_upper_price 함수를 정의하라.
+print('\n217')
+
+# my code
+def print_upper_price(a):
+    print(a * 0.3)
+print_upper_price(10)
+
+# the answer
+def print_upper_price(price) :
+    print(price * 1.3)
+print_upper_price(10)
