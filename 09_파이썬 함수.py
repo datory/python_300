@@ -240,3 +240,12 @@ print_with_smile('hello')
 # the answer
 def print_with_smile (string) :
     print (string + ":D")
+
+
+
+# 216
+# 215에서 정의한 함수를 호출하라. 파라미터는 "안녕하세요"로 입력하라.
+print('\n216')
+print_with_smile('안녕하세요')
+
+
