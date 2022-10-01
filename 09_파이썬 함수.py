@@ -265,3 +265,15 @@ print_upper_price(10)
 def print_upper_price(price) :
     print(price * 1.3)
 print_upper_price(10)
+
+
+
+# 218
+# 두 개의 숫자를 입력받아 두 수의 합을 출력하는 print_sum 함수를 정의하라.
+print('\n218')
+
+# my code
+def print_sum(a, b):
+    print(a + b)
+
+print_sum(1, 1)
