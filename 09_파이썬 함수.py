@@ -338,3 +338,15 @@ print_max(3, 2, 1)
 
 
 print(max(3, 2, 1))
+
+
+
+# 221
+# 입력된 문자열을 역순으로 출력하는 print_reverse 함수를 정의하라.
+# print_reverse("python")
+# nohtyp
+print('\n221')
+
+def print_reverse(a):
+    print(a[::-1])
+print_reverse('python')
