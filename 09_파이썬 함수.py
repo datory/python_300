@@ -368,3 +368,27 @@ print_score(1, 2, 3)
 def print_score(score_list) :
     print(sum(score_list)/len(score_list))
 print_score([1, 2, 3])
+
+
+
+# 223
+# 하나의 리스트를 입력받아 짝수만 화면에 출력하는 print_even 함수를 정의하라.
+# print_even ([1, 3, 2, 10, 12, 11, 15])
+# 2
+# 10
+# 12
+print('\n223')
+
+# my code
+def print_even(a):
+    for i in a:
+        if i % 2 == 0:
+            print(i)
+print_even([1, 2, 3, 4])
+
+# the answer
+def print_even (my_list) :
+    for v in my_list :
+        if v % 2 == 0 :
+            print(v)
+print_even([1, 2, 3, 4])
