@@ -392,3 +392,25 @@ def print_even (my_list) :
         if v % 2 == 0 :
             print(v)
 print_even([1, 2, 3, 4])
+
+
+
+# 224
+# 하나의 딕셔너리를 입력받아 딕셔너리의 key 값을 화면에 출력하는 print_keys 함수를 정의하라.
+# print_keys ({"이름":"김말똥", "나이":30, "성별":0})
+# 이름
+# 나이
+# 성별
+print('\n224')
+
+# my code
+def print_keys(a):
+    for k in a.keys():
+        print(k)
+print_keys({"이름":"김말똥", "나이":30, "성별":0})
+
+# the answer
+def print_keys(dic):
+    for keys in dic.keys():
+        print(keys)
+print_keys({"이름":"김말똥", "나이":30, "성별":0})
