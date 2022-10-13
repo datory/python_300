@@ -414,3 +414,35 @@ def print_keys(dic):
     for keys in dic.keys():
         print(keys)
 print_keys({"이름":"김말똥", "나이":30, "성별":0})
+
+
+
+# 225
+# my_dict에는 날짜를 키값으로 OHLC가 리스트로 저장돼 있다.
+# my_dict = {"10/26" : [100, 130, 100, 100],
+#            "10/27" : [10, 12, 10, 11]}
+# my_dict와 날짜 키값을 입력받아 OHLC 리스트를 출력하는 print_value_by_key 함수를 정의하라.
+# print_value_by_key  (my_dict, "10/26")
+# [100, 130, 100, 100]
+print('\n225')
+
+# my code
+my_dict = {"10/26" : [100, 130, 100, 100],
+           "10/27" : [10, 12, 10, 11]}
+
+def print_value_by_key(a, b):
+    print(my_dict[b])
+print_value_by_key  (my_dict, "10/26")
+
+
+# the answer
+my_dict = {"10/26" : [100, 130, 100, 100],
+           "10/27" : [10, 12, 10, 11]}
+
+def print_value_by_key (my_dict, key) :
+    print(my_dict[key])
+print_value_by_key  (my_dict, "10/26")
+
+
+
+
