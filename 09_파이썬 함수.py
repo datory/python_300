@@ -445,4 +445,22 @@ print_value_by_key  (my_dict, "10/26")
 
 
 
+# 226
+# 입력 문자열을 한 줄에 다섯글자씩 출력하는 print_5xn(string) 함수를 작성하라.
+# print_5xn("아이엠어보이유알어걸")
+# 아이엠어보
+# 이유알어걸
+print('\n226')
 
+# my code
+def print_5xn(string):
+    print(string[0:5])
+    print(string[5:10])
+print_5xn("아이엠어보이유알어걸")
+
+# the answer
+def print_5xn(line):
+    chunk_num = int(len(line) / 5)
+    for x in range(chunk_num + 1) :
+        print(line[x * 5: x * 5 + 5])
+print_5xn("아이엠어보이유알어걸")
