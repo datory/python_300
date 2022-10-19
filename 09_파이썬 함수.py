@@ -464,3 +464,18 @@ def print_5xn(line):
     for x in range(chunk_num + 1) :
         print(line[x * 5: x * 5 + 5])
 print_5xn("아이엠어보이유알어걸")
+
+
+
+# 227
+# 문자열과 한줄에 출력될 글자 수를 입력을 받아 한 줄에 입력된 글자 수만큼 출력하는 print_mxn(string) 함수를 작성하라.
+# printmxn("아이엠어보이유알어걸", 3)
+# 아이엠
+# 어보이
+# 유알어
+# 걸
+print('\n227')
+
+# my code
+def print_mxn(string, num):
+
