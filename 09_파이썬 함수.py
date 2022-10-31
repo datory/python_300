@@ -477,7 +477,7 @@ print_5xn("아이엠어보이유알어걸")
 print('\n227')
 
 # my code
-def print_mxn(string, num):
+# def print_mxn(string, num):
 
 
 
@@ -486,6 +486,7 @@ def print_mxn(line, num):
     chunk_num = int(len(line) / num)
     for x in range(chunk_num + 1) :
         print(line[x * num: x * num + num])
+print_mxn("아이엠어보이유알어걸", 3)
 
 
 
@@ -497,3 +498,14 @@ def print_mxn(line, num):
 print('\n228')
 
 # my code
+def calc_monthly_salary1(annual_salary):
+    average = annual_salary / 12
+    print(int(average))
+calc_monthly_salary1(12000000)
+
+# the answer
+def calc_monthly_salary(annual_pay) :
+    monthly_pay = int(annual_pay / 12)
+    return monthly_pay
+    print(monthly_pay)
+calc_monthly_salary(12000000)
