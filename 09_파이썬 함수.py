@@ -557,10 +557,23 @@ my_print(b=100, a=200)
 
 # 231
 # 아래 코드를 실행한 결과를 예상하라.
-
 # def n_plus_1 (n) :
 #     result = n + 1
-
 # n_plus_1(3)
 # print (result)
 print('\n231')
+
+# my code
+# 4
+
+# the answer
+# 에러가 발생합니다.
+# NameError Traceback (most recent call last)
+# <ipython-input-2-78e20c8ecef0> in <module>()
+# 3 
+# 4 n_plus_1(3)
+# ----> 5 print (result)
+# 6
+
+# NameError: name 'result' is not defined
+
