@@ -577,3 +577,26 @@ print('\n231')
 
 # NameError: name 'result' is not defined
 
+
+
+# 232
+# 문자열 하나를 입력받아 인터넷 주소를 반환하는 make_url 함수를 정의하라.
+# make_url("naver")
+# www.naver.com
+print('\n232')
+
+# my code
+def make_url(url):
+    print("www."+url+".com")
+
+make_url("naver")
+
+
+# the answer
+def make_url(string) :
+    url = "www." + string + ".com"
+    return url
+    
+# 간단하므로 한줄로 표현할 수도 있습니다.
+def make_url(string) :
+    return "www." + string + ".com"
