@@ -600,3 +600,30 @@ def make_url(string) :
 # 간단하므로 한줄로 표현할 수도 있습니다.
 def make_url(string) :
     return "www." + string + ".com"
+
+
+
+# 233
+# 문자열을 입력받아 각 문자들로 구성된 리스트로 반환하는 make_list 함수를 정의하라.
+# make_list("abcd")
+# ['a', 'b', 'c', 'd']
+print('\n233')
+
+# my code
+def make_list(string):
+    print(list(string))
+
+make_list("abcd")
+
+
+# the answer
+# 비어있는 리스트에 문자열을 하나씩 추가합니다. 이어서 리스트를 반환 (return) 합니다.
+def make_list (string) :
+    my_list = []
+    for 변수 in string :
+        my_list.append(변수)
+    return my_list
+
+# 문자열을 list로 형변환하면 쉽게 문제를 해결할 수 있습니다.
+def make_list (string) :
+    return list(string)
