@@ -627,3 +627,14 @@ def make_list (string) :
 # 문자열을 list로 형변환하면 쉽게 문제를 해결할 수 있습니다.
 def make_list (string) :
     return list(string)
+
+
+
+# 234
+# 숫자로 구성된 하나의 리스트를 입력받아, 짝수들을 추출하여 리스트로 반환하는 pickup_even 함수를 구현하라.
+# pickup_even([3, 4, 5, 6, 7, 8])
+# [4, 6, 8]
+
+# my code
+def pickup_even(string):
+    print()
