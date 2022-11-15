@@ -634,7 +634,25 @@ def make_list (string) :
 # 숫자로 구성된 하나의 리스트를 입력받아, 짝수들을 추출하여 리스트로 반환하는 pickup_even 함수를 구현하라.
 # pickup_even([3, 4, 5, 6, 7, 8])
 # [4, 6, 8]
+print('\n234')
 
 # my code
-def pickup_even(string):
-    print()
+def pickup_even(num_list):
+    even_num = []
+    for n in num_list:
+        if n % 2 == 0:
+            even_num.append(n)
+    print(even_num)
+
+pickup_even([3, 4, 5, 6, 7, 8])
+
+
+# the answer
+def pickup_even(items):
+    result = []
+    for item in items:
+        if item % 2 == 0:
+            result.append(item)
+    return result
+
+print(pickup_even([3, 4, 5, 6, 7, 8]))
