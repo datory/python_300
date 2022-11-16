@@ -656,3 +656,27 @@ def pickup_even(items):
     return result
 
 print(pickup_even([3, 4, 5, 6, 7, 8]))
+
+
+
+# 235
+# 콤마가 포함된 문자열 숫자를 입력받아 정수로 변환하는 convert_int 함수를 정의하라.
+# convert_int("1,234,567")
+# 1234567
+print('\n235')
+
+# my code
+def convert_int(convert):
+    print(convert.replace(",",""))
+
+convert_int("1,234,567")
+
+
+# the answer
+def convert_int (string) :
+    return int(string.replace(',', ''))
+    
+print(convert_int("1,234,567"))
+
+
+
