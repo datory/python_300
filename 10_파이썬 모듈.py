@@ -77,3 +77,31 @@ import datetime
 day = "2020-05-04"
 ret = datetime.datetime.strptime(day, "%Y-%m-%d")
 print(ret, type(ret))
+
+
+
+# 246 sleep 함수
+# time 모듈, datetime 모듈을 사용해서 1초에 한 번 현재 시간을 출력하는 코드를 작성하세요.
+print('\n246')
+
+# my code
+import time
+import datetime
+from time import time
+from time import sleep
+
+# time()
+# print('before')
+# sleep(3.5)
+# print('after')
+
+
+# the answer
+# import time
+# import datetime
+
+# while True:
+#     now = datetime.datetime.now()
+#     print(now)
+#     time.sleep(1)
+
