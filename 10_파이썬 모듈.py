@@ -105,3 +105,9 @@ from time import sleep
 #     print(now)
 #     time.sleep(1)
 
+
+
+# 247 모듈 임포트
+# 모듈을 임포트하는 4가지 방식에 대해 설명해보세요.
+print('\n247')
+
