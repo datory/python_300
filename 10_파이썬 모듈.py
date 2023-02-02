@@ -111,3 +111,12 @@ from time import sleep
 # 모듈을 임포트하는 4가지 방식에 대해 설명해보세요.
 print('\n247')
 
+
+
+# 248 os 모듈
+# os 모듈의 getcwd 함수를 호출하여 현재 디렉터리의 경로를 화면에 출력해보세요.
+print('\n248')
+
+import os
+ret = os.getcwd()
+print(ret, type(ret))
