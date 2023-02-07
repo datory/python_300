@@ -128,4 +128,16 @@ print(ret, type(ret))
 print('\n249')
 
 import os
-os.rename("C:/Users/hyunh/Desktop/before.txt", "C:/Users/hyunh/Desktop/after.txt")
+# os.rename("C:/Users/hyunh/Desktop/before.txt", "C:/Users/hyunh/Desktop/after.txt")
+
+
+
+# 250 numpy
+# numpy 모듈의 arange 함수를 사용해서 0.0 부터 5.0까지 0.1씩 증가하는 값을 화면에 출력해보세요.
+print('\n250')
+
+import numpy
+for i in numpy.arange(0, 5, 0.1):
+    print(i)
+
+
